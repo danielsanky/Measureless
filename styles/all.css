@@ -1,0 +1,184 @@
+.contact input:invalid {
+ border-color: red;
+}
+
+.error, .emailErrorFill {
+  display: inline-block;
+}
+
+.hiddenError{
+  display: none;
+}
+
+
+body {
+  width: auto;
+  margin: auto;
+  background-color:rgb(45, 117, 146);
+  font-family: rockwell;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 105%;
+}
+/*Start of Nav Bar*/
+
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(16, 16, 16);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 14px 6px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #800040;
+}
+
+nav{
+  text-align: center;
+  width: 100%;
+}
+/*end of nav bar*/
+h1{
+  padding-top: 50px;
+  text-align: center;
+}
+h2,h3{
+  text-align: center;
+}
+
+a{
+  color:white;
+}
+
+/*index*/
+.intro img{
+    float:right;
+    display: inline-block;
+    margin-left: 15px;
+    width: 30%;
+}
+
+.intro p{
+  text-indent: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  line-height: 150%;
+}
+/*music*/
+.musicHead{
+  margin-top: 50px;
+  text-align: left;
+}
+.songList ul{
+  columns: 1;
+  float: left;
+  text-align:left;
+  display: inline-block;
+}
+
+/*individual*/
+.person{
+  float: left;
+  width: 30%;
+  margin-left: 20%;
+}
+
+.info{
+  margin-left: 50%;
+  margin-right: 20%;
+  text-align: left;
+  line-height: 150%;
+}
+
+/*members*/
+.groupPhoto{
+  display: inline-block;
+  width: 40%;
+  margin-left: 32%;
+  margin-right: 20%;
+}
+
+.mems{
+  padding-left:11%;
+  padding-right:10%;
+}
+
+img{
+  margin: 10px;
+  display: inline-block;
+  width: 90%;
+}
+
+.m1{
+  float: left;
+  width:25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow: auto;
+  display: inline-block;
+}
+
+/*Citations*/
+.cite ul{
+  text-align: left;
+  line-height: 150%;
+
+}
+
+@media only screen and (max-width: 588px) {
+  .intro img{
+    width: 55%;
+  }
+  .groupPhoto{
+    width:60%;
+  }
+  .m1{
+    width: 25%;
+  }
+}
+
+/*Online form*/
+form{
+  margin-left: 5%;
+}
+
+.know{
+  padding-bottom: 35px;
+}
+
+.name,.address,.stud,.gender,.grade,.song,.button{
+  margin-bottom: 20px;
+}
+.response,.twoPar p{
+  font-size: 140%;
+  line-height:150%;
+  text-align: left;
+  margin-left:10%;
+  margin-right:10%;
+}
+.twoPar p{
+  text-indent: 30px;
+}
+.responseList{
+  text-align: left;
+  margin-left: 10%;
+}
